@@ -5,7 +5,8 @@
     "start": "npm --prefix clinicms-frontend run dev",
     "build": "npm --prefix clinicms-frontend run build",
     "preview": "npm --prefix clinicms-frontend run preview",
-    "lint": "npm --prefix clinicms-frontend run lint"
+    "lint": "npm --prefix clinicms-frontend run lint",
+    "postinstall": "npm --prefix clinicms-frontend install"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.13",
