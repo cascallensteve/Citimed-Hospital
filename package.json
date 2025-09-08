@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix clinicms-frontend run dev",
+    "start": "npm --prefix clinicms-frontend run dev",
+    "build": "npm --prefix clinicms-frontend run build",
+    "preview": "npm --prefix clinicms-frontend run preview",
+    "lint": "npm --prefix clinicms-frontend run lint"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13"
+  }
+}
